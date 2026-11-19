@@ -8,7 +8,7 @@
         Title="MuteMotion" Height="350" Width="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/Background.png" Stretch="Fill"/>
+            <ImageBrush ImageSource="Images/Background1.png" Stretch="Fill"/>
         </Grid.Background>
         <Button x:Name="CustomerButton" FontSize="18" Background="White" Content="Customer" HorizontalAlignment="Left" Margin="122,215,0,0" VerticalAlignment="Top" Height="78" Width="90" Click="Customer_Button_Click">
             <Button.Resources>

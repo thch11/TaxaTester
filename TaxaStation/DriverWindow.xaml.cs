@@ -93,5 +93,11 @@ namespace TaxaStation
             string json = JsonSerializer.Serialize(s.DriverList);
             System.IO.File.WriteAllText(filepath, json);
         }
+
+        private void BlackJackButton_Click(object sender, RoutedEventArgs e)
+        {
+            BlackJackWindow blackjackwindow = new BlackJackWindow();
+            blackjackwindow.Show();
+        }
     }
 }

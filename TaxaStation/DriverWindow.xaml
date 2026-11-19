@@ -29,6 +29,7 @@
             <Image Source="/Images/Background4.png" Height="42" Width="237" />
         </Button>
         <ListBox x:Name="DriverListBoxDriver" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="228,97,0,10" Background="Transparent"/>
+        <Button x:Name="BlackJackButton" Content="Blackjack" HorizontalAlignment="Left" Margin="388,13,0,0" VerticalAlignment="Top" Height="36" Width="102" Background="Transparent" Click="BlackJackButton_Click"/>
 
 
     </Grid>
